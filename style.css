@@ -20,8 +20,14 @@ main {
 	flex-direction: row;
 }
 
-canvas {
+#canvas-container {
 	width: 100%;
+	background-color: gray;
+}
+
+canvas {
+	margin: 0 auto;
+	display: block;
 }
 
 #buttons {
