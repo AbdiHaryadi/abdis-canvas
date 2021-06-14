@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Abdi's Canvas</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Abdi's Canvas</h1>
+		</header>
+		<main>
+			<canvas id="mycanvas"></canvas>
+			<div id="buttons">
+				<div id="tools" class="two-column-grid">
+					<img class="clickable-image" title="Pencil" src="img/pencil.png" onclick="chooseTool('pencil');">
+					<img class="clickable-image" title="Line" src="img/line.png" onclick="chooseTool('line');">
+					<img class="clickable-image" title="Rectangle" src="img/rectangle.png" onclick="chooseTool('rectangle');">
+					<img class="clickable-image" title="Square" src="img/square.png" onclick="chooseTool('square');">
+				</div>
+				<div id="colors" class="two-column-grid">
+					<img class="clickable-image" title="Black" src="img/black.png" onclick="chooseColor('black');">
+					<img class="clickable-image" title="White" src="img/white.png" onclick="chooseColor('white');">
+					<img class="clickable-image" title="Red" src="img/red.png" onclick="chooseColor('red');">
+					<img class="clickable-image" title="Yellow" src="img/yellow.png" onclick="chooseColor('yellow');">
+					<img class="clickable-image" title="Green" src="img/green.png" onclick="chooseColor('green');">
+					<img class="clickable-image" title="Blue" src="img/blue.png" onclick="chooseColor('blue');">
+				</div>
+				<div id="information">
+					<p id="information-desc">You are using black pencil</p>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>Abdi Haryadi, 2021</p>
+		</footer>
+		<script src="scripts.js"></script>
+	</body>
+</html>
